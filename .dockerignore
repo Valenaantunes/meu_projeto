@@ -1,0 +1,6 @@
+# arquivo diz o que o docker deve ignorar e não ser subido durante a construção do docker , mantendo a imagem mais limpa, pequena e segura
+.git
+.github
+.__pycache__
+*.pyc
+.env
